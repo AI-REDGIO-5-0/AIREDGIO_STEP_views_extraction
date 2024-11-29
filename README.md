@@ -4,7 +4,7 @@ This repository contains a python script to automate the extraction of STEP file
 
 Instructions for use:
 
-1. Download the file ‘views_and_bounding_box_extraction.py’.
+1. Download the file `views_and_bounding_box_extraction.py`.
 
 2. Fill out the paths for the script execution: `folder_path` is the location containing all the STEP files to be processed, `output_folder_path` is the output directory where the script will save the extracted views, and `save_path` is where the script will save the dataset containing the dimensions of all the objects.
 

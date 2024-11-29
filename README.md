@@ -1,4 +1,4 @@
-# Views extractor from STEP files
+# Python views extractor from STEP files
 
 This repository contains a python script to automate the extraction of STEP file’s orthogonal projections using tools available on PythonOCC (Paviot, T. (2022). "pythonocc". Zenodo. https://doi.org/10.5281/zenodo.3605364).
 

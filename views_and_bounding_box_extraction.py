@@ -20,7 +20,7 @@ save_path = "" #path in which the dataset containing the dimensions of all the f
 
 # %%
 screen_width = 3060 
-screen_hight = 3060
+screen_height = 3060
 
 # %% [markdown]
 # 3. Set the tolerance (in mm) that will be used to obtain the bounding box 
@@ -113,7 +113,7 @@ for i in range(len(cad_files)):
     ########## VIEWS EXTRACTION
     shapes_labels_colors = read_step_file_with_names_colors(file_path)
 
-    display = OffscreenRenderer(screen_size=(screen_width, screen_hight))
+    display = OffscreenRenderer(screen_size=(screen_width, screen_height))
     display.hide_triedron()
 
     color1 = Quantity_Color(Quantity_NameOfColor.Quantity_NOC_WHITE)
